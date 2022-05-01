@@ -6,3 +6,11 @@ from django.http import HttpResponse
 def home(request):
 	return render(request,"home/index.html")
 
+def term(request):
+	return render(request,"home/term.html")
+
+def article(request):
+	return render(request,"home/article-details.html")
+
+def privacy(request):
+	return render(request,"home/privacy-policy.html")
